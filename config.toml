@@ -1,0 +1,34 @@
+baseURL = "https://redmine-diary.netlify.app/"
+title = "Redmine / RedMica Contribution Diary"
+theme = "hugo-notepadium"
+
+languageCode = "ja"
+defaultContentLanguage = "ja"
+
+hasCJKLanguage = true
+
+[params]
+mainSections = ["posts"]
+
+[params.share]
+enable = true
+addThisId = ""
+inlineToolId = ""
+
+[params.profile]
+  enable = true
+  name = ""
+  bio = ""
+  twitter = "g_maeda"
+
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
+
+[[params.nav.custom]]
+title = "Redmine"
+url = "https://www.redmine.org/"
+
+[[params.nav.custom]]
+title = "RedMica"
+url = "https://github.com/redmica/redmica"
