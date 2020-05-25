@@ -32,3 +32,6 @@ url = "https://www.redmine.org/"
 [[params.nav.custom]]
 title = "RedMica"
 url = "https://github.com/redmica/redmica"
+
+[markup.goldmark.renderer]
+unsafe= true
